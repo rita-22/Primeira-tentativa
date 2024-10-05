@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Rita Martins">
     <title>primeiro site da Rita <3 </title>
 </head>
 <body>
-    <b><h1>CRIEI O MEU PRIMEIRO SITE!</h1><b>
-    <p> Se alguém estiver a ver isto, vou assumir que fui minimamente bem sucedida.
-    Pressupondo do princípio que eu tinha de criar um site, e estás a ler isto <br>a partir de um link gerado na web.</p></br>
-    <h2> mas como, e porque é que criei este site? </h2>
+    <header></header>
+        <h1>Bem-vindo ao site da Rita</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Por enquanto o não é possível aceder aos títulos do cabeçalho -->
+    
+    <h2>Porque é que criei este site? </h2>
     <p> Foi me proposto na minha aula de aplicações web que criasse um site simples, nada de temas e cores, apenas que falasse um pouco
     acerca de mim.<br> E nada melhor para dizer do que, contar como e que vim parar a esta cadeira e a este trabalho. Mas para isso temos de ir mesmo ao início da hístória.</br>
     No final do ano letivo passado 2023/2024 estava bastante ndecisa de que curso me candidatar para a 
@@ -23,7 +32,29 @@
     <em>Qual foi a tua escolha final?</em> - Conclusão das coisas, entrei em comunicação, audiovisual e multimédia na universidade lusófona,
         e não me arrependo de todo! <br>Era exatemente o que eu procurava, um curso que abordasse um bocado de todas
         as àreas que fui despertando interesse.</br> Mal encontrei este curso pensei: " Porque não descobrir?" E pronto aqui estou eu :))
-        Ana Rita, CAM
+        <p><span style="color: rgb(155, 206, 238);">Apresento-vos o site da minha Universidade:</span> <a href="https://www.ulusofona.pt">ULP</a></p>
+        <img src="https://eduportugal.eu/wp-content/uploads/2019/12/ULP-logo-institucional-300x300.png" alt="Logotipo ULP"></div>
+        <footer>
+            <p>&copy; 2024 Universidade Lusófona do Porto</p>
+        </footer>
+        
+    <h3><u>Tou aqui a falar de mim, tá na hora de te conhecer melhor!</u></h3>
+    <form action="/submit" method="POST">
+        <label for="Nome">Qual é o teu nome?</label>
+        <input type="text" id="nome" name="nome">
+        <input type="submit" value="Enviar">
+    <form action="/submit" method="POST">
+            <label for="Faculdade">Qual faculdade frequentas?</label>
+            <input type="text" id="nome" name="nome">
+            <input type="submit" value="Enviar">
+    <form action="/submit" method="POST">
+                <label for="Curso">Qual curso frequentas?</label>
+                <input type="text" id="nome" name="nome">
+                <input type="submit" value="Enviar">
+    
+    
+    
+
 
 </body>
 </html>
